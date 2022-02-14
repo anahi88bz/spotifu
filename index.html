@@ -10,7 +10,7 @@
 <body class="body">
 
 <div class="playerControls">    
-    <div class="playerControls-buttons">
+    <div class="playerControls-buttons"  aria-label ="Controles de reproducción">
         <button class="buttonIcon" aria-label="Retroceder" title="Retroceder"> 
             <i class="icon-prev" aria-hidden="true"></i>
         </button>
@@ -39,7 +39,23 @@
 
 </div>
 
-    <div class="sidebar">
+<div class="playerVolume">
+
+    <button class="player-control" aria-label= "Silenciar" aria-describedby="volume-icon">
+        <i class="icon-volumeUp"  id="volume-icon" role="presentation" aria-label="Volumen alto"> </i>
+    </button>
+    <div class="playerVolume-slider">
+        <div class="slider">
+            <div class="slider-progress">
+                <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+            </div>
+        </div>
+    </div>
+   
+
+</div>
+
+<div class="sidebar">
         <header class="logo" role="banner"> 
             <a href="/" aria-current="page">
                 <img src="./images/spotifu-logo.png" class = "logo-image"alt="Logo de Spotifu" title="Logo de Spotifu" width="112" height="32">
@@ -161,7 +177,7 @@
                 </li>
             </ul>
          </nav>
-    </div>
+</div>
    
    
 
