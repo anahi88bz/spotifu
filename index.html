@@ -9,51 +9,8 @@
 </head>
 <body class="body">
 
-<div class="playerControls">    
-    <div class="playerControls-buttons"  aria-label ="Controles de reproducción">
-        <button class="buttonIcon" aria-label="Retroceder" title="Retroceder"> 
-            <i class="icon-prev" aria-hidden="true"></i>
-        </button>
 
-        <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir"> 
-            <i class="icon-play" aria-hidden="true"></i>
-        </button>
 
-        <button class="buttonIcon" aria-label="Adelantar" title="Adelantar"> 
-            <i class="icon-next" aria-hidden="true"></i>
-        </button>
-    </div>
-
-    <div class="playerPlayback">
-        <span class="playerPlayback-progressTime">01:40</span>
-        <div class="playerPlayback-slider">
-            <div class="slider">
-                <div class="slider-progress">
-                    <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
-                </div>
-            </div>
-        </div>
-      
-        <span class="playerPlayback-progressTime">03:34</span>
-    </div>
-
-</div>
-
-<div class="playerVolume">
-
-    <button class="player-control" aria-label= "Silenciar" aria-describedby="volume-icon">
-        <i class="icon-volumeUp"  id="volume-icon" role="presentation" aria-label="Volumen alto"> </i>
-    </button>
-    <div class="playerVolume-slider">
-        <div class="slider">
-            <div class="slider-progress">
-                <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
-            </div>
-        </div>
-    </div>
-   
-
-</div>
 
 <div class="sidebar">
         <header class="logo" role="banner"> 
@@ -179,6 +136,87 @@
          </nav>
 </div>
    
+<div class="player">
+    <div class="player-nowPlaying">
+        <div class="nowPlaying">
+            <div class="nowPlaying-cover">
+                <img src="./images/grand-scape.png" alt="Portada Grand Escape (feat. Tokio Miura)" title="Portada Grand Escape (feat. Tokio Miura)">
+            </div>
+           
+           <div class="nowPlaying-details">
+                <div class="nowPlaying-description">
+                    <a href="#song" class="nowPlaying-title">
+                        Grand Escape (feat. Tokio Miura)
+                    </a>
+                    
+                    <a href="#artist" class="nowPlaying-artist">
+                        RADWIMPS, Tokio Miura
+                    </a>    
+                </div>
+        
+                <div class="nowPlaying-actions">
+                    <button class="player-control"  role="switch" aria-label= "Favorito" title="Favorito" >
+                        <i class="icon-heart"  aria-hidden="true" aria-label="Favorito"> </i>
+                    </button>
+                </div>
+                
+            </div>
+        
+        </div>
+    </div>
+   
+    <div class="player-playerControls">
+        <div class="playerControls">    
+            <div class="playerControls-buttons"  aria-label ="Controles de reproducción">
+                <button class="buttonIcon" aria-label="Retroceder" title="Retroceder"> 
+                    <i class="icon-prev" aria-hidden="true"></i>
+                </button>
+        
+                <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir"> 
+                    <i class="icon-play" aria-hidden="true"></i>
+                </button>
+        
+                <button class="buttonIcon" aria-label="Adelantar" title="Adelantar"> 
+                    <i class="icon-next" aria-hidden="true"></i>
+                </button>
+            </div>
+        
+            <div class="playerPlayback">
+                <span class="playerPlayback-progressTime">01:40</span>
+                <div class="playerPlayback-slider">
+                    <div class="slider">
+                        <div class="slider-progress">
+                            <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+                        </div>
+                    </div>
+                </div>
+              
+                <span class="playerPlayback-progressTime">03:34</span>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="player-playerVolume">
+        <div class="playerVolume">
+    
+            <button class="player-control" aria-label= "Silenciar" aria-describedby="volume-icon">
+                <i class="icon-volumeUp"  id="volume-icon" role="presentation" aria-label="Volumen alto"> </i>
+            </button>
+            <div class="playerVolume-slider">
+                <div class="slider">
+                    <div class="slider-progress">
+                        <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+                    </div>
+                </div>
+            </div>
+           
+        
+        </div>
+    </div>
+ 
+
+</div>
    
 
 
