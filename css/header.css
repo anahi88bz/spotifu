@@ -8,6 +8,7 @@
     padding-block-end: 1rem; 
     align-items: center;
     backdrop-filter: blur(8px);
+    /* background: red; */
 }
 
 @supports not(backdrop-filter: blur(8px)){
