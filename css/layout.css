@@ -1,0 +1,16 @@
+:root {
+    --sidebarInlineSize: 15rem;
+    --minBlockSize: 37.5rem;
+    --minInlinesize: 48rem;
+    --bottomSize: 5.5rem;
+}
+
+.layout {
+    box-shadow: inset 0 0 0 10px red ;
+    min-inline-size: var(--minInlinesize);
+  
+}
+
+.layout-block {
+    display: flex;
+}
